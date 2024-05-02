@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+>>> SHARE
+--------------------------------------------------------------*/
+
+.share-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.share-button:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.share-button:focus {
+  outline: none;
+}
+
+/* If you want to style the button differently when it's active or pressed */
+.share-button:active {
+  background-color: #aaa;
+  color: #fff;
+}
+
+/* Style the SVG icon */
+.share-button svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 5px;
+  /* Adjust the margin as needed */
+  vertical-align: middle;
+}
